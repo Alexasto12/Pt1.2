@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploració Espacial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="custom-navbar">
+            <div class="logo">
+                <h1 class="animated-title">COSMOS</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Inici</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Planetes</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#mercury">Mercuri</a></li>
+                        <li><a href="#venus">Venus</a></li>
+                        <li><a href="#earth">Terra</a></li>
+                        <li><a href="#mars">Mart</a></li>
+                        <li><a href="#jupiter">Júpiter</a></li>
+                        <li><a href="#saturn">Saturn</a></li>
+                        <li><a href="#uranus">Urà</a></li>
+                        <li><a href="#neptune">Neptú</a></li>
+                    </ul>
+                </li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container text-center">
+                <h2 class="main-title">Explora l'Univers</h2>
+                <p class="subtitle">Viatja a través de l'espai i el temps</p>
+                <div class="floating-planet"></div>
+            </div>
+        </section>
+
+        <section id="about" class="container py-5">
+            <h2>Sobre l'Exploració Espacial</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>L'exploració espacial és l'ús de l'astronomia i la tecnologia espacial per explorar l'espai exterior. L'exploració física de l'espai es realitza tant per vols espacials tripulats com per naus espacials robòtiques.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="pulsing-star"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="planets" class="container py-5">
+            <h2>El Nostre Sistema Solar</h2>
+            <div class="planet-cards">
+                <div class="planet-card" id="mercury">
+                    <h3>Mercuri</h3>
+                    <p>El planeta més petit i més interior del Sistema Solar.</p>
+                </div>
+                <div class="planet-card" id="venus">
+                    <h3>Venus</h3>
+                    <p>El segon planeta des del Sol i el veí més proper de la Terra.</p>
+                </div>
+                <div class="planet-card" id="earth">
+                    <h3>Terra</h3>
+                    <p>El nostre planeta natal, l'únic planeta conegut que alberga vida.</p>
+                </div>
+                <div class="planet-card" id="mars">
+                    <h3>Mart</h3>
+                    <p>El quart planeta des del Sol, sovint anomenat el "Planeta Vermell".</p>
+                </div>
+                <div class="planet-card" id="jupiter">
+                    <h3>Júpiter</h3>
+                    <p>El planeta més gran del nostre Sistema Solar.</p>
+                </div>
+                <div class="planet-card" id="saturn">
+                    <h3>Saturn</h3>
+                    <p>El sisè planeta des del Sol, famós pels seus impressionants anells.</p>
+                </div>
+                <div class="planet-card" id="uranus">
+                    <h3>Urà</h3>
+                    <p>El setè planeta des del Sol, conegut pel seu to blau-verdós i el seu eix inclinat.</p>
+                </div>
+                <div class="planet-card" id="neptune">
+                    <h3>Neptú</h3>
+                    <p>El vuitè i més llunyà planeta del nostre Sistema Solar, amb un intens color blau.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="container-fluid py-5 gallery-section">
+            <div class="container">
+                <h2 class="text-center mb-5">Galeria de Planetes</h2>
+                <div class="gallery-container">
+                    <div class="gallery-item mercury-img">
+                        <div class="floating-planet planet-mercury"></div>
+                        <div class="gallery-content">
+                            <h3>Mercuri</h3>
+                            <p>El més proper al Sol</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item venus-img">
+                        <div class="floating-planet planet-venus"></div>
+                        <div class="gallery-content">
+                            <h3>Venus</h3>
+                            <p>El més calorós</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item earth-img">
+                        <div class="floating-planet planet-earth"></div>
+                        <div class="gallery-content">
+                            <h3>Terra</h3>
+                            <p>El planeta blau</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item mars-img">
+                        <div class="floating-planet planet-mars"></div>
+                        <div class="gallery-content">
+                            <h3>Mart</h3>
+                            <p>El planeta vermell</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item jupiter-img">
+                        <div class="floating-planet planet-jupiter"></div>
+                        <div class="gallery-content">
+                            <h3>Júpiter</h3>
+                            <p>El gegant gasós</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item saturn-img">
+                        <div class="floating-planet planet-saturn"></div>
+                        <div class="gallery-content">
+                            <h3>Saturn</h3>
+                            <p>El planeta dels anells</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item uranus-img">
+                        <div class="floating-planet planet-uranus"></div>
+                        <div class="gallery-content">
+                            <h3>Urà</h3>
+                            <p>El planeta inclinat</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item neptune-img">
+                        <div class="floating-planet planet-neptune"></div>
+                        <div class="gallery-content">
+                            <h3>Neptú</h3>
+                            <p>El gegant blau</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-dark">
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">&copy; 2025 Alejandro Cabrera Carrasco</p>
+                <a href="https://github.com/Alexasto12" class="github-link" target="_blank" rel="noopener noreferrer">
+                    <div class="github-icon"></div>
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
