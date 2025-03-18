@@ -1,174 +1,588 @@
 <!DOCTYPE html>
 <html lang="ca">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exploració Espacial</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="custom-navbar">
-            <div class="logo">
-                <h1 class="animated-title">COSMOS</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Inici</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle">Planetes</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#mercury">Mercuri</a></li>
-                        <li><a href="#venus">Venus</a></li>
-                        <li><a href="#earth">Terra</a></li>
-                        <li><a href="#mars">Mart</a></li>
-                        <li><a href="#jupiter">Júpiter</a></li>
-                        <li><a href="#saturn">Saturn</a></li>
-                        <li><a href="#uranus">Urà</a></li>
-                        <li><a href="#neptune">Neptú</a></li>
-                    </ul>
-                </li>
-                <li><a href="#gallery">Galeria</a></li>
-                <li><a href="#contact">Contacte</a></li>
+      <nav class="custom-navbar">
+        <div class="logo">
+          <h1 class="animated-title">COSMOS</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Inici</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Planetes</a>
+            <ul class="dropdown-menu">
+              <li><a href="#mercury">Mercuri</a></li>
+              <li><a href="#venus">Venus</a></li>
+              <li><a href="#earth">Terra</a></li>
+              <li><a href="#mars">Mart</a></li>
+              <li><a href="#jupiter">Júpiter</a></li>
+              <li><a href="#saturn">Saturn</a></li>
+              <li><a href="#uranus">Urà</a></li>
+              <li><a href="#neptune">Neptú</a></li>
             </ul>
-        </nav>
+          </li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#multimedia">Multimèdia</a></li>
+          <li><a href="#contact">Contacte</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="home" class="hero">
-            <div class="container text-center">
-                <h2 class="main-title">Explora l'Univers</h2>
-                <p class="subtitle">Viatja a través de l'espai i el temps</p>
-                <div class="floating-planet"></div>
-            </div>
-        </section>
+      <section id="home" class="hero">
+        <div class="container text-center">
+          <h2 class="main-title">Explora l'Univers</h2>
+          <p class="subtitle">Viatja a través de l'espai i el temps</p>
+          <div class="floating-planet"></div>
+        </div>
+      </section>
 
-        <section id="about" class="container py-5">
-            <h2>Sobre l'Exploració Espacial</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <p>L'exploració espacial és l'ús de l'astronomia i la tecnologia espacial per explorar l'espai exterior. L'exploració física de l'espai es realitza tant per vols espacials tripulats com per naus espacials robòtiques.</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="pulsing-star"></div>
-                </div>
-            </div>
-        </section>
+      <section id="about" class="container py-5">
+        <h2>Sobre l'Exploració Espacial</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              L'exploració espacial és l'ús de l'astronomia i la tecnologia
+              espacial per explorar l'espai exterior. L'exploració física de
+              l'espai es realitza tant per vols espacials tripulats com per naus
+              espacials robòtiques.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="pulsing-star"></div>
+          </div>
+        </div>
+      </section>
 
-        <section id="planets" class="container py-5">
-            <h2>El Nostre Sistema Solar</h2>
-            <div class="planet-cards">
-                <div class="planet-card" id="mercury">
-                    <h3>Mercuri</h3>
-                    <p>El planeta més petit i més interior del Sistema Solar.</p>
-                </div>
-                <div class="planet-card" id="venus">
-                    <h3>Venus</h3>
-                    <p>El segon planeta des del Sol i el veí més proper de la Terra.</p>
-                </div>
-                <div class="planet-card" id="earth">
-                    <h3>Terra</h3>
-                    <p>El nostre planeta natal, l'únic planeta conegut que alberga vida.</p>
-                </div>
-                <div class="planet-card" id="mars">
-                    <h3>Mart</h3>
-                    <p>El quart planeta des del Sol, sovint anomenat el "Planeta Vermell".</p>
-                </div>
-                <div class="planet-card" id="jupiter">
-                    <h3>Júpiter</h3>
-                    <p>El planeta més gran del nostre Sistema Solar.</p>
-                </div>
-                <div class="planet-card" id="saturn">
-                    <h3>Saturn</h3>
-                    <p>El sisè planeta des del Sol, famós pels seus impressionants anells.</p>
-                </div>
-                <div class="planet-card" id="uranus">
-                    <h3>Urà</h3>
-                    <p>El setè planeta des del Sol, conegut pel seu to blau-verdós i el seu eix inclinat.</p>
-                </div>
-                <div class="planet-card" id="neptune">
-                    <h3>Neptú</h3>
-                    <p>El vuitè i més llunyà planeta del nostre Sistema Solar, amb un intens color blau.</p>
-                </div>
-            </div>
-        </section>
+      <section id="planets" class="container py-5">
+        <h2>El Nostre Sistema Solar</h2>
+        <div class="planet-cards">
+          <div class="planet-card" id="mercury">
+            <h3>Mercuri</h3>
+            <p>El planeta més petit i més interior del Sistema Solar.</p>
+          </div>
+          <div class="planet-card" id="venus">
+            <h3>Venus</h3>
+            <p>El segon planeta des del Sol i el veí més proper de la Terra.</p>
+          </div>
+          <div class="planet-card" id="earth">
+            <h3>Terra</h3>
+            <p>
+              El nostre planeta natal, l'únic planeta conegut que alberga vida.
+            </p>
+          </div>
+          <div class="planet-card" id="mars">
+            <h3>Mart</h3>
+            <p>
+              El quart planeta des del Sol, sovint anomenat el "Planeta
+              Vermell".
+            </p>
+          </div>
+          <div class="planet-card" id="jupiter">
+            <h3>Júpiter</h3>
+            <p>El planeta més gran del nostre Sistema Solar.</p>
+          </div>
+          <div class="planet-card" id="saturn">
+            <h3>Saturn</h3>
+            <p>
+              El sisè planeta des del Sol, famós pels seus impressionants
+              anells.
+            </p>
+          </div>
+          <div class="planet-card" id="uranus">
+            <h3>Urà</h3>
+            <p>
+              El setè planeta des del Sol, conegut pel seu to blau-verdós i el
+              seu eix inclinat.
+            </p>
+          </div>
+          <div class="planet-card" id="neptune">
+            <h3>Neptú</h3>
+            <p>
+              El vuitè i més llunyà planeta del nostre Sistema Solar, amb un
+              intens color blau.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <section id="gallery" class="container-fluid py-5 gallery-section">
-            <div class="container">
-                <h2 class="text-center mb-5">Galeria de Planetes</h2>
-                <div class="gallery-container">
-                    <div class="gallery-item mercury-img">
-                        <div class="floating-planet planet-mercury"></div>
-                        <div class="gallery-content">
-                            <h3>Mercuri</h3>
-                            <p>El més proper al Sol</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item venus-img">
-                        <div class="floating-planet planet-venus"></div>
-                        <div class="gallery-content">
-                            <h3>Venus</h3>
-                            <p>El més calorós</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item earth-img">
-                        <div class="floating-planet planet-earth"></div>
-                        <div class="gallery-content">
-                            <h3>Terra</h3>
-                            <p>El planeta blau</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item mars-img">
-                        <div class="floating-planet planet-mars"></div>
-                        <div class="gallery-content">
-                            <h3>Mart</h3>
-                            <p>El planeta vermell</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item jupiter-img">
-                        <div class="floating-planet planet-jupiter"></div>
-                        <div class="gallery-content">
-                            <h3>Júpiter</h3>
-                            <p>El gegant gasós</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item saturn-img">
-                        <div class="floating-planet planet-saturn"></div>
-                        <div class="gallery-content">
-                            <h3>Saturn</h3>
-                            <p>El planeta dels anells</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item uranus-img">
-                        <div class="floating-planet planet-uranus"></div>
-                        <div class="gallery-content">
-                            <h3>Urà</h3>
-                            <p>El planeta inclinat</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item neptune-img">
-                        <div class="floating-planet planet-neptune"></div>
-                        <div class="gallery-content">
-                            <h3>Neptú</h3>
-                            <p>El gegant blau</p>
-                        </div>
-                    </div>
-                </div>
+      <section id="gallery" class="container-fluid py-5 gallery-section">
+        <div class="container">
+          <h2 class="text-center mb-5">Galeria de Planetes</h2>
+          <div class="gallery-container">
+            <div class="gallery-item mercury-img">
+              <div class="floating-planet planet-mercury"></div>
+              <div class="gallery-content">
+                <h3>Mercuri</h3>
+                <p>El més proper al Sol</p>
+              </div>
             </div>
-        </section>
+            <div class="gallery-item venus-img">
+              <div class="floating-planet planet-venus"></div>
+              <div class="gallery-content">
+                <h3>Venus</h3>
+                <p>El més calorós</p>
+              </div>
+            </div>
+            <div class="gallery-item earth-img">
+              <div class="floating-planet planet-earth"></div>
+              <div class="gallery-content">
+                <h3>Terra</h3>
+                <p>El planeta blau</p>
+              </div>
+            </div>
+            <div class="gallery-item mars-img">
+              <div class="floating-planet planet-mars"></div>
+              <div class="gallery-content">
+                <h3>Mart</h3>
+                <p>El planeta vermell</p>
+              </div>
+            </div>
+            <div class="gallery-item jupiter-img">
+              <div class="floating-planet planet-jupiter"></div>
+              <div class="gallery-content">
+                <h3>Júpiter</h3>
+                <p>El gegant gasós</p>
+              </div>
+            </div>
+            <div class="gallery-item saturn-img">
+              <div class="floating-planet planet-saturn"></div>
+              <div class="gallery-content">
+                <h3>Saturn</h3>
+                <p>El planeta dels anells</p>
+              </div>
+            </div>
+            <div class="gallery-item uranus-img">
+              <div class="floating-planet planet-uranus"></div>
+              <div class="gallery-content">
+                <h3>Urà</h3>
+                <p>El planeta inclinat</p>
+              </div>
+            </div>
+            <div class="gallery-item neptune-img">
+              <div class="floating-planet planet-neptune"></div>
+              <div class="gallery-content">
+                <h3>Neptú</h3>
+                <p>El gegant blau</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="multimedia" class="container py-5">
+        <h2 class="text-center mb-5">Recursos Multimèdia</h2>
+
+        <div class="multimedia-tabs">
+          <ul class="nav nav-tabs" id="mediaTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="videos-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#videos"
+                type="button"
+                role="tab"
+                aria-controls="videos"
+                aria-selected="true"
+              >
+                Vídeos
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="documents-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#documents"
+                type="button"
+                role="tab"
+                aria-controls="documents"
+                aria-selected="false"
+              >
+                Documents
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="tutorials-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#tutorials"
+                type="button"
+                role="tab"
+                aria-controls="tutorials"
+                aria-selected="false"
+              >
+                Tutorials
+              </button>
+            </li>
+          </ul>
+
+          <div class="tab-content mt-4" id="mediaTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="videos"
+              role="tabpanel"
+              aria-labelledby="videos-tab"
+            >
+              <div class="row mb-5">
+                <div class="col-md-6 mb-4">
+                  <div class="card media-card">
+                    <div class="card-header">
+                      <h3>Vídeo HTML5</h3>
+                    </div>
+                    <div class="card-body">
+                      <video
+                        controls
+                        width="100%"
+                        poster="http://46-127-130-25.dynamic.hispeed.ch/gws/stargates5/media/Video/Wissenschaft/Kosmos/EN/How%20Far%20Away%20Is%20It%20-%2016%20-%20The%20Cosmos%20(4K).jpg"
+                      >
+                        <source
+                          src="http://46-127-130-25.dynamic.hispeed.ch/gws/stargates5/media/Video/Wissenschaft/Kosmos/EN/How%20Far%20Away%20Is%20It%20-%2016%20-%20The%20Cosmos%20(1080).mp4"
+                          type="video/mp4"
+                        />
+                        El teu navegador no suporta vídeo HTML5.
+                      </video>
+                      <p class="mt-3">
+                        Vídeo del telescopi James Webb mostrant imatges del camp
+                        profund
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                  <div class="card media-card">
+                    <div class="card-header">
+                      <h3>Vídeo Format Antic (.mov)</h3>
+                    </div>
+                    <div class="card-body">
+                      <video controls width="100%">
+                        <source
+                          src="media/moon.formation.1.mov"
+                          type="video/quicktime"
+                        />
+                        <source
+                          src="media/moon.formation.1.mp4"
+                          type="video/mp4"
+                        />
+                        El teu navegador no suporta aquest format de vídeo.
+                      </video>
+                      <p class="mt-3">
+                        Vídeo de demostració en format .mov amb fallback a .mp4
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="card media-card">
+                    <div class="card-header">
+                      <h3>Vídeo de YouTube</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe
+                          width="100%"
+                          height="315"
+                          src="https://www.youtube.com/embed/Ilifg26TZrI?rel=0"
+                          title="NASA: Tour of the Moon"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                      <p class="mt-3">
+                        Tour virtual de la Lluna per la NASA. La missió Apolo 13
+                        va ser la setena missió tripulada del programa Apolo de
+                        la NASA i la tercera destinada a aterrar a la Lluna.
+                        Llançada el 11 d'abril de 1970, la missió va ser
+                        avortada després que un tanc d'oxigen del mòdul de
+                        servei explotés dos dies després del llançament, deixant
+                        la nau espacial sense gairebé cap subministrament
+                        d'energia. Els astronautes van utilitzar el mòdul lunar
+                        com a "bot salvavides" per tornar a la Terra,
+                        aconseguint un retorn segur el 17 d'abril de 1970.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                  <div class="card media-card">
+                    <div class="card-header">
+                      <h3>Mapa Interactiu (iframe)</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="embed-responsive embed-responsive-1by1">
+                        <iframe
+                          width="100%"
+                          height="400"
+                          src="https://eyes.nasa.gov/apps/solar-system/#/jupiter?embed=true"
+                          title="Exploradora interactiva del Sistema Solar"
+                          frameborder="0"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                      <p class="mt-3">
+                        Model 3D interactiu de Júpiter proporcionat per la NASA
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="documents"
+              role="tabpanel"
+              aria-labelledby="documents-tab"
+            >
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="card media-card">
+                    <div class="card-header">
+                      <h3>Document PDF</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="embed-responsive embed-responsive-1by1">
+                        <iframe
+                          class="embed-responsive-item"
+                          src="https://www.nasa.gov/sites/default/files/atoms/files/artemis_plan-20200921.pdf"
+                          type="application/pdf"
+                          width="100%"
+                          height="500px"
+                        ></iframe>
+                      </div>
+                      <p class="mt-3">
+                        Pla Artemis de la NASA per tornar humans a la Lluna
+                      </p>
+                      <a
+                        href="https://www.nasa.gov/sites/default/files/atoms/files/artemis_plan-20200921.pdf"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >Obrir en una nova finestra</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                  <div class="card media-card">
+                    <div class="card-header">
+                      <h3>Document Google Docs</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="embed-responsive embed-responsive-1by1">
+                        <iframe
+                          class="embed-responsive-item"
+                          src="https://docs.google.com/document/d/17t5ZJZyHVXu9C0KXDlTTHWC4hyIAt1mDIXd335OS_A0/edit?tab=t.0"
+                        ></iframe>
+                      </div>
+                      <p class="mt-3">
+                        Resum de dades astronòmiques del Sistema Solar
+                      </p>
+                      <a
+                        href="https://docs.google.com/document/d/17t5ZJZyHVXu9C0KXDlTTHWC4hyIAt1mDIXd335OS_A0/"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >Veure document complet</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 mb-4">
+                  <div class="card media-card">
+                    <div class="card-header">
+                      <h3>Full de càlcul Google Sheets</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="embed-responsive embed-responsive-21by9">
+                        <iframe
+                          class="embed-responsive-item"
+                          src="https://docs.google.com/spreadsheets/d/1R6vGrQK3s718gl8SQOSFb9HQA6va9haXQC3G4OjB40A/edit?gid=0#gid=0"
+                        ></iframe>
+                      </div>
+                      <p class="mt-3">
+                        Dades comparatives dels planetes del Sistema Solar
+                      </p>
+                      <a
+                        href="https://docs.google.com/spreadsheets/d/1R6vGrQK3s718gl8SQOSFb9HQA6va9haXQC3G4OjB40A/edit?gid=0#gid=0"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >Veure full complet</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="tutorials"
+              role="tabpanel"
+              aria-labelledby="tutorials-tab"
+            >
+              <div class="row mb-5">
+                <div class="col-12">
+                  <div class="card tutorial-card">
+                    <div class="card-header">
+                      <h3>Tutorial: Com descarregar vídeos amb youtube-dl</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="tutorial-step">
+                        <h4>Pas 1: Instal·lar youtube-dl</h4>
+                        <div class="code-block">
+                          <pre><code># Per a Linux/MacOS
+pip install youtube-dl
+
+# Per a Windows (amb pip)
+pip install youtube-dl</code></pre>
+                        </div>
+                        <p>
+                          També pots descarregar l'executable directament des de
+                          <a href="https://youtube-dl.org/" target="_blank"
+                            >youtube-dl.org</a
+                          >.
+                        </p>
+                      </div>
+
+                      <div class="tutorial-step">
+                        <h4>Pas 2: Descarregar un vídeo</h4>
+                        <div class="code-block">
+                          <pre><code>youtube-dl https://www.youtube.com/watch?v=Ilifg26TZrI</code></pre>
+                        </div>
+                        <p>
+                          Això descarregarà el vídeo amb la millor qualitat
+                          disponible.
+                        </p>
+                      </div>
+
+                      <div class="tutorial-step">
+                        <h4>Pas 3: Descarregar només l'àudio</h4>
+                        <div class="code-block">
+                          <pre><code>youtube-dl -x --audio-format mp3 https://www.youtube.com/watch?v=Ilifg26TZrI</code></pre>
+                        </div>
+                        <p>
+                          Això extraurà només l'àudio del vídeo i el guardarà en
+                          format MP3.
+                        </p>
+                      </div>
+
+                      <div class="tutorial-step">
+                        <h4>Pas 4: Descarregar amb una qualitat específica</h4>
+                        <div class="code-block">
+                          <pre><code>youtube-dl -f 22 https://www.youtube.com/watch?v=Ilifg26TZrI</code></pre>
+                        </div>
+                        <p>
+                          El format 22 correspon a vídeo MP4 a 720p. Per veure
+                          tots els formats disponibles:
+                        </p>
+                        <div class="code-block">
+                          <pre><code>youtube-dl -F https://www.youtube.com/watch?v=Ilifg26TZrI</code></pre>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <div class="card tutorial-card">
+                    <div class="card-header">
+                      <h3>
+                        Tutorial: Convertir vídeos a diferents formats amb
+                        FFmpeg
+                      </h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="tutorial-step">
+                        <h4>Pas 1: Instal·lar FFmpeg</h4>
+                        <div class="code-block">
+                          <pre><code># Per a Ubuntu/Debian
+sudo apt-get install ffmpeg
+
+# Per a MacOS (amb Homebrew)
+brew install ffmpeg
+
+# Per a Windows
+# Descarrega des de https://ffmpeg.org/download.html</code></pre>
+                        </div>
+                      </div>
+
+                      <div class="tutorial-step">
+                        <h4>Pas 2: Convertir un vídeo a MP4</h4>
+                        <div class="code-block">
+                          <pre><code>ffmpeg -i video_entrada.mov video_sortida.mp4</code></pre>
+                        </div>
+                      </div>
+
+                      <div la="tutorial-step">
+                        <h4>Pas 3: Convertir a WebM (format per a web)</h4>
+                        <div class="code-block">
+                          <pre><code>ffmpeg -i video_entrada.mov -c:v libvpx-vp9 -crf 30 -b:v 0 video_sortida.webm</code></pre>
+                        </div>
+                      </div>
+
+                      <div class="tutorial-step">
+                        <h4>Pas 4: Extraure l'àudio d'un vídeo</h4>
+                        <div class="code-block">
+                          <pre><code>ffmpeg -i video_entrada.mp4 -q:a 0 -map a audio_sortida.mp3</code></pre>
+                        </div>
+                      </div>
+
+                      <div class="tutorial-step">
+                        <h4>Pas 5: Comprimir un vídeo</h4>
+                        <div class="code-block">
+                          <pre><code>ffmpeg -i video_entrada.mp4 -vf scale=1280:-1 -c:v libx264 -crf 28 -preset medium -c:a aac -b:a 128k video_comprimit.mp4</code></pre>
+                        </div>
+                        <p>
+                          Aquest comandament redimensiona el vídeo a 1280px
+                          d'amplada i comprimeix tant el vídeo com l'àudio.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer-dark">
-        <div class="container">
-            <div class="footer-content">
-                <p class="copyright">&copy; 2025 Alejandro Cabrera Carrasco</p>
-                <a href="https://github.com/Alexasto12" class="github-link" target="_blank" rel="noopener noreferrer">
-                    <div class="github-icon"></div>
-                    GitHub
-                </a>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <p class="copyright">&copy; 2025 Alejandro Cabrera Carrasco</p>
+          <a
+            href="https://github.com/Alexasto12"
+            class="github-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="github-icon"></div>
+            GitHub
+          </a>
         </div>
+      </div>
     </footer>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
